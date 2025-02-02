@@ -1,0 +1,189 @@
+﻿/* Estilo general para la tabla listado (ListadoVisitas) */
+
+#ListadoVisitas.listado-visitas {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#ListadoVisitas.listado-visitas th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#ListadoVisitas.listado-visitas td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#ListadoVisitas.listado-visitas tr:hover {
+    background-color: #f2f2f2;
+}
+
+#ListadoVisitas.listado-visitas tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#ListadoVisitas.listado-visitas tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#ListadoVisitas.listado-visitas:empty {
+    display: none;
+}
+
+#ListadoVisitas.listado-visitas,
+#ListadoVisitas.listado-visitas th,
+#ListadoVisitas.listado-visitas td {
+    border: 1px solid #ddd;
+}
+
+#ListadoVisitas.listado-visitas td.important {
+    font-weight: bold;
+    color: #D32F2F;
+}
+
+.text-no {
+    font-size: 14px;
+    color: #dc3545;
+}
+
+.text-si {
+    font-size: 14px;
+    color: #218838;
+}
+
+.filtros input {
+    padding: 10px;
+    margin: 5px 20px 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nueva-visita {
+    background: #4caf50;
+    padding: 4px 7px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 11px;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border-left: 5px solid #218838;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-danger {
+    background-color: #dc3545;
+    color: white;
+    font-weight: bold;
+    border-left: 5px solid #d62716;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.acciones {
+    width: 10%;
+}
+
+/* Estilos generales del formulario */
+form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px 0px 20px 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    width: 100%;
+    font-weight: bold;
+    color: #333;
+    align-content: center;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 20px 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+form input:focus, form select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+    display:c
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 15px; 
+}
+
+
+form .btn-primary {
+    background: #0056b3;
+    color: white;
+}
+
+form .btn-primary:hover {
+    background: #0ae4ef;
+}
+
+form .btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+form .btn-secondary:hover {
+        background: #5a6268;
+}
+
+.text-danger {
+    font-size: 14px;
+    color: #dc3545;
+}
+
+.input-text {
+    width: 48%;
+    margin: 10px;
+    display: inline-flex;
+}
+
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}

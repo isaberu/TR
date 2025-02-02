@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\views\\visitas\\edicion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:views\\visitas\\edicion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\views\\visitas\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:views\\visitas\\listado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\models\\visitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:models\\visitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\controllers\\visitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:controllers\\visitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\utiles\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:utiles\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\validaciones\\fechanofuturavalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:validaciones\\fechanofuturavalidacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|c:\\users\\isabe\\documents\\proyectos\\tecnicasreunidas\\pruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB9FA3-6EF6-40E2-9E2D-55177C4AFDBE}|PruebaTecnica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T17:44:19.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-02T18:20:28.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-02T17:36:41.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FechaNoFuturaValidacion.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Validaciones\\FechaNoFuturaValidacion.cs",
+              "RelativeDocumentMoniker": "Validaciones\\FechaNoFuturaValidacion.cs",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Validaciones\\FechaNoFuturaValidacion.cs",
+              "RelativeToolTip": "Validaciones\\FechaNoFuturaValidacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T16:35:43.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T13:33:08.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utilidades.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Utiles\\Utilidades.cs",
+              "RelativeDocumentMoniker": "Utiles\\Utilidades.cs",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Utiles\\Utilidades.cs",
+              "RelativeToolTip": "Utiles\\Utilidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T12:28:39.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Visitas.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Models\\Visitas.cs",
+              "RelativeDocumentMoniker": "Models\\Visitas.cs",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Models\\Visitas.cs",
+              "RelativeToolTip": "Models\\Visitas.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:49:21.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Listado.cshtml",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Visitas\\Listado.cshtml",
+              "RelativeDocumentMoniker": "Views\\Visitas\\Listado.cshtml",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Visitas\\Listado.cshtml",
+              "RelativeToolTip": "Views\\Visitas\\Listado.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAFoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T11:16:18.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edicion.cshtml",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Visitas\\Edicion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Visitas\\Edicion.cshtml",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Views\\Visitas\\Edicion.cshtml",
+              "RelativeToolTip": "Views\\Visitas\\Edicion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T11:15:49.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VisitasController.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Controllers\\VisitasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VisitasController.cs",
+              "ToolTip": "C:\\Users\\isabe\\Documents\\Proyectos\\tecnicasReunidas\\PruebaTecnica\\Controllers\\VisitasController.cs",
+              "RelativeToolTip": "Controllers\\VisitasController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwH4AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T11:12:14.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

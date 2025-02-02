@@ -1,0 +1,107 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Listado visitas";
+    @model List<Visitas>;
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Listado de visitas</h1>
+    <p>Este es el listado de visitas por comercial.</p>
+</div>
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}
+
+@if (TempData["MensajeError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["MensajeError"]
+    </div>
+}
+
+<div class="filtros">
+    <input type="text" id="searchComercial" placeholder="Buscar por Comercial...">
+    <input type="text" id="searchCliente" placeholder="Buscar por Cliente...">
+</div>
+
+
+<div id="ListadoVisitas" class="listado-visitas">
+    <table border="1" id="tablaVisitas">
+        <thead>
+            <tr>
+                <th>@ViewBag.NombreColumnaComercial</th>
+                <th>@ViewBag.NombreColumnaCliente</th>
+                <th>@ViewBag.NombreColumnaDireccionCliente</th>
+                <th>@ViewBag.NombreColumnaPersonaContactoCliente</th>
+                <th>@ViewBag.NombreColumnaTelefonoCliente</th>
+                <th>@ViewBag.NombreColumnaEmailCliente</th>
+                <th>@ViewBag.NombreColumnaFechaVisita</th>
+                <th>@ViewBag.NombreColumnaHoraInicio</th>
+                <th>@ViewBag.NombreColumnaHoraFin</th>
+                <th>@ViewBag.NombreColumnaPedidoRealizado</th>
+                <th>@ViewBag.NombreColumnaImportePedidoRealizado</th>
+                <th>@ViewBag.NombreColumnaNotas</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+
+                @foreach (var visita in Model)
+                {
+                    <tr>
+                        <td>@visita.Comercial</td>
+                        <td>@visita.Cliente</td>
+                        <td>@visita.DireccionCliente</td>
+                        <td>@visita.PersonaContactoCliente</td>
+                        <td>@visita.TelefonoCliente</td>
+                        <td>@visita.EmailCliente</td>
+                        <td>@visita.FechaVisita?.ToString("dd/MM/yyyy")</td>
+                        <td>@visita.HoraInicio?.ToString("HH:mm")</td>
+                        <td>@visita.HoraFin?.ToString("HH:mm")</td>
+                        <td>@if (visita.PedidoRealizado == true) 
+                            { 
+                                <span class="text-si">Si</span>; 
+                            } 
+                            else 
+                            { 
+                                <span class="text-no">No</span>; 
+                            }
+                        </td>
+                        <td>
+                            @if (visita.ImportePedidoRealizado != null)
+                            {
+                                @visita.ImportePedidoRealizado <i class="fas fa-euro"></i>
+                            }
+
+                        </td>
+                        <td>@visita.Notas</td>
+                        <td class="acciones">
+                            <a asp-action="Edicion" asp-controller="Visitas" asp-route-id="@visita.Id" class="btn btn-warning">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                            <a asp-action="Eliminar" asp-controller="Visitas" asp-route-id="@visita.Id" class="btn btn-danger">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="15">No se encontraron productos en el archivo Excel.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

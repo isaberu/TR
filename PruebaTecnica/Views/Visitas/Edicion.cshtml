@@ -1,0 +1,92 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Edición visita";
+    @model Visitas;
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.titulo</h1>
+    <p>@ViewBag.subtitulo</p>
+</div>
+
+
+<div>
+    <form action="/Visitas/Guardar/@Model.Id" method="post">
+        <div class="input-text">
+            <label asp-for="Comercial">@ViewBag.Comercial</label>
+            <input asp-for="Comercial" type="text" name="Comercial" value="@Model.Comercial">
+            <span asp-validation-for="Comercial" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="Cliente">@ViewBag.Cliente</label>
+            <input asp-for="Cliente" type="text" name="Cliente" value="@Model.Cliente">
+            <span asp-validation-for="Cliente" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="DireccionCliente">@ViewBag.DireccionCliente</label>
+            <input asp-for="DireccionCliente" type="text" name="DireccionCliente" value="@Model.DireccionCliente">
+            <span asp-validation-for="DireccionCliente" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="PersonaContactoCliente">@ViewBag.PersonaContactoCliente</label>
+            <input asp-for="PersonaContactoCliente" type="text" name="PersonaContactoCliente" value="@Model.PersonaContactoCliente">
+            <span asp-validation-for="PersonaContactoCliente" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="TelefonoCliente">@ViewBag.TelefonoCliente</label>
+            <input asp-for="TelefonoCliente" type="text" name="TelefonoCliente" value="@Model.TelefonoCliente">
+            <span asp-validation-for="TelefonoCliente" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="EmailCliente">@ViewBag.EmailCliente</label>
+            <input asp-for="EmailCliente" type="text" name="EmailCliente" value="@Model.EmailCliente">
+            <span asp-validation-for="EmailCliente" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="FechaVisita">@ViewBag.FechaVisita</label>
+            <input asp-for="FechaVisita" type="text" name="FechaVisita" id="fecha" autocomplete="off" value="@Model.FechaVisita?.ToString("dd/MM/yyyy")">
+            <span asp-validation-for="FechaVisita" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="HoraInicio">@ViewBag.HoraInicio</label>
+            <input asp-for="HoraInicio" type="text" name="HoraInicio" value="@Model.HoraInicio?.ToString("HH:mm")">
+            <span asp-validation-for="HoraInicio" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="HoraFin">@ViewBag.HoraFin</label>
+            <input asp-for="HoraFin" type="text" name="HoraFin" value="@Model.HoraFin?.ToString("HH:mm")">
+            <span asp-validation-for="HoraFin" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="PedidoRealizado">@ViewBag.PedidoRealizado</label>
+            <select id="PedidoRealizado" name="PedidoRealizado" class="form-control">
+                <option value="">Seleccione una opción</option>
+                <option value="Si" selected="@ViewBag.PedidoRealizadoSi">Sí</option>
+                <option value="No" selected="@ViewBag.PedidoRealizadoNo">No</option>
+            </select>
+            <span asp-validation-for="PedidoRealizado" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="ImportePedidoRealizado">@ViewBag.ImportePedidoRealizado</label>
+            <input asp-for="ImportePedidoRealizado" type="text" name="ImportePedidoRealizado" id="ImportePedidoRealizado" onchange="cambiarComaPorPunto()" value="@Model.ImportePedidoRealizado?.ToString().Replace(",",".")">
+            <span asp-validation-for="ImportePedidoRealizado" class="text-danger"></span>
+        </div>
+        <div class="input-text">
+            <label asp-for="Notas">@ViewBag.Notas</label>
+            <input asp-for="Notas" type="text" name="Notas" value="@Model.Notas">
+            <span asp-validation-for="Notas" class="text-danger"></span>
+        </div>
+
+        <div class="center-button">
+            <button class="btn-primary" type="submit">Guardar</button>
+        </div>
+        
+    </form>
+</div>
